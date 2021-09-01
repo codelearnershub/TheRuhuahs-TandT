@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\source\\repos\\TheRuhuahs-TandT\\TheRuhuahs-TandT.csproj": {}
+    "C:\\Users\\ADMIN\\Desktop\\TheRuhuahs-TandT\\TheRuhuahs-TandT.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\source\\repos\\TheRuhuahs-TandT\\TheRuhuahs-TandT.csproj": {
+    "C:\\Users\\ADMIN\\Desktop\\TheRuhuahs-TandT\\TheRuhuahs-TandT.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\source\\repos\\TheRuhuahs-TandT\\TheRuhuahs-TandT.csproj",
+        "projectUniqueName": "C:\\Users\\ADMIN\\Desktop\\TheRuhuahs-TandT\\TheRuhuahs-TandT.csproj",
         "projectName": "TheRuhuahs-TandT",
-        "projectPath": "C:\\Users\\user\\source\\repos\\TheRuhuahs-TandT\\TheRuhuahs-TandT.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\source\\repos\\TheRuhuahs-TandT\\obj\\",
+        "projectPath": "C:\\Users\\ADMIN\\Desktop\\TheRuhuahs-TandT\\TheRuhuahs-TandT.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ADMIN\\Desktop\\TheRuhuahs-TandT\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,6 +37,26 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.26, )"
+            },
+            "MySql.Data.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.22, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -57,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
